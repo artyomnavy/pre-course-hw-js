@@ -1,9 +1,6 @@
 let str = "zzzzyzz";
 
-let arr = [];
-for (let i = 0; i < str.length; i++) {
-    arr.push(str[i]);
-}
+let arr = Array.from(str);
 
 if (arr.includes("y")) {
     console.log("нашел");
