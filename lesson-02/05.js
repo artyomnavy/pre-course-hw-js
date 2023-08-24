@@ -7,5 +7,5 @@ let clonePassport = Object.assign({}, passport);
 
 clonePassport.name = "Ivan";
 
-console.log(passport);
-console.log(clonePassport);
+console.log(passport.name);
+console.log(clonePassport.name);
