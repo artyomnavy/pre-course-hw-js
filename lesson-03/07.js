@@ -4,6 +4,6 @@ const numbers = [
     [111, 200, 333, 400, 555],
 ];
 
-const result = numbers.map(row => row.map(number => number % 2 === 0 ? number : ""));
+const result = numbers.map(row => row.map(number => number % 2 === 0 ? number : null));
 
 console.log(result);
