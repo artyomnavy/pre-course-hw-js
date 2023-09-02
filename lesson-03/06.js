@@ -32,11 +32,7 @@ const users3 = [
 ];
 
 const result = users3.map((arg) => {
-    if (typeof(arg) === 'object') {
-        return arg = {...arg, isMarried: true};
-    } else {
-        return arg;
-    }
+    return arg = {...arg, isMarried: true};
 })
 
 console.log(result);
