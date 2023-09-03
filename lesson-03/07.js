@@ -5,7 +5,9 @@ const numbers = [
 ];
 
 const evenNumbers = numbers.map(row => {
-    return row.filter(number => number % 2 === 0)
+    row.map(number => {
+        if (number % 2 === 0) {
+            console.log(number);
+        }
+    })
 });
-
-console.log([...evenNumbers]);
