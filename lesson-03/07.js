@@ -4,8 +4,8 @@ const numbers = [
     [111, 200, 333, 400, 555],
 ];
 
-const result = numbers.map(row => {
+const evenNumbers = numbers.map(row => {
     return row.filter(number => number % 2 === 0)
 });
 
-console.log(result);
+console.log([...evenNumbers]);
